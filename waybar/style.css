@@ -1,60 +1,84 @@
 * {
-  border: none;
-  font-family: 'Fira Code', 'Symbols Nerd Font Mono';
-  font-size: 14px;
-  font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-  min-height:20px;
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 16px;
+    min-height: 0;
 }
 
 window#waybar {
-  background: transparent;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid #282828;
+    color: #cdd6f4
 }
 
-#custom-arch, #workspaces {
-  border-radius: 10px;
-  background-color: #11111b;
-  color: #b4befe;
-  margin-top: 15px;
-	margin-right: 15px;
-  padding-top: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#custom-arch {
-  font-size: 20px;
-	margin-left: 15px;
-  color: #b4befe;
+#workspaces {
+    margin-left: 10px;
 }
 
 #workspaces button {
-  background: #000000;
-  color: #b4befe;
+    margin: 0px 3px 6px;
+    border-radius: 16px;
+    color: #dadada;
+    background: #003c75;
+    transition: all 0.3s ease-in-out;
 }
 
-#clock, #backlight, #pulseaudio, #bluetooth, #network, #battery{
-  border-radius: 10px;
-  background-color: #11111b;
-  color: #cdd6f4;
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 15px;
+#workspaces button.active {
+    color: #003c75;
+    background: #afd0f2;
+    border-radius: 16px;
+    min-width: 50px;
+    transition: all 0.3s ease-in-out;
 }
 
-#backlight, #bluetooth {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  padding-right: 5px;
-  margin-right: 0
+#workspaces button:hover {
+    color: #dadada;
+    background: #8baf56;
+    border-radius: 16px;
 }
 
-#pulseaudio, #network {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding-left: 5px;
+/* #pulseaudio {
+    background: firebrick;
+} */
+
+#backlight {
+    color: #efef86;
 }
 
-#clock {
-  margin-right: 0;
+#network {
+    color: rgb(250,210,232);
+}
+#memory {
+    color: rgb(32,187,161);
+}
+
+#temperature {
+    color: #155999
+}
+#temperature.critical {
+    color: #ee662f;
+}
+
+
+#battery {
+    color: #9ece6a;
+}
+
+#battery.charging {
+    color: #9ece6a;
+}
+
+#battery.warning:not(.charging) {
+    color: #FEC13F;
+}
+
+#battery.critical:not(.charging) {
+    color: #f7768e;
+}
+
+
+#custom-power {
+	color: #db4b4b;
+    margin-right: 10px;
 }
