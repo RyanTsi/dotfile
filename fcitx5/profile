@@ -1,6 +1,6 @@
 [Groups/0]
 # Group Name
-Name=zh
+Name=Default
 # Layout
 Default Layout=us
 # Default Input Method
@@ -33,6 +33,6 @@ Name=keyboard-us
 Layout=
 
 [GroupOrder]
-0=zh
+0=Default
 1=en
 

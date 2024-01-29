@@ -14,10 +14,6 @@
 - link:
     ~/.asoundrc : .asoundrc
     ~/.zshrc : .zshrc
-    ~/.zprofile : .zprofile
     ~/.config/fcitx5: fcitx5
-    ~/.config/foot: foot
-    ~/.config/hypr: hypr
     ~/.config/neofetch: neofetch
-    ~/.config/ranger: ranger
     ~/.config/waybar: waybar
