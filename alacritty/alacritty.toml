@@ -1,0 +1,35 @@
+[window]
+opacity = 0.92
+blur = false
+
+[font]
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+size = 10.75
+
+[colors]
+cursor = { text = "#feffff", cursor = "#c7c7c7" }
+selection = { text = "#3e3e3e", background = "#c8c8c8" }
+
+	[colors.primary]
+	background = "#323232"
+	foreground = "#c8c8c8"
+
+	[colors.normal]
+	black   = "#252525"
+	red     = "#be7472"
+	green   = "#709772"
+	yellow  = "#989772"
+	blue    = "#7199bc"
+	magenta = "#727399"
+	cyan    = "#719899"
+	white   = "#7f7f7f"
+
+	[colors.bright]
+	black   = "#555555"
+	red     = "#ff9900"
+	green   = "#97bb98"
+	yellow  = "#fefdbc"
+	blue    = "#9fdbde"
+	magenta = "#989abc"
+	cyan    = "#6fbbbc"
+	white   = "#feffff"

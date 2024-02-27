@@ -108,7 +108,6 @@ http_proxy=127.0.0.1:7890
 https_proxy=127.0.0.1:7890
 socks_proxy=127.0.0.1:7891
 
-
 alias s="neofetch"
 alias ra="ranger"
 
@@ -122,3 +121,6 @@ export https_proxy=$https_proxy
 export socks_proxy=$socks_proxy
 "
 alias unset_proxy="unset http_proxy https_proxy socks_proxy"
+
+PATH="$HOME/.node_modules/bin:$PATH"
+export npm_config_prefix=~/.node_modules

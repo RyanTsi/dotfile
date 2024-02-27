@@ -14,6 +14,9 @@
 - link:
     ~/.asoundrc : .asoundrc
     ~/.zshrc : .zshrc
-    ~/.config/fcitx5: fcitx5
-    ~/.config/neofetch: neofetch
-    ~/.config/waybar: waybar
+    ~/.xinitrc : .xinitrc
+    ~/.config/fcitx5 : fcitx5
+    ~/.config/neofetch : neofetch
+    ~/.config/kitty : kitty
+    ~/.config/alacritty : alacritty
+    ~/Scripts : Scripts
